@@ -1,1378 +1,1443 @@
 {
-  "schemaVersion": 5,
-  "channel": "testing",
-  "sequence": 1795316841,
-  "issuedAt": "2026-11-22T03:07:21Z",
-  "installer": {
-    "minimumVersion": "0.1.0",
-    "latestVersion": "0.1.0",
-    "downloadURL": "https://github.com/aurora-silicon/aurora-installer/releases/tag/v0.1.0-alpha.23"
+ "schemaVersion": 5,
+ "channel": "testing",
+ "sequence": 1795316841,
+ "issuedAt": "2026-11-22T03:07:21Z",
+ "installer": {
+  "minimumVersion": "0.1.0",
+  "latestVersion": "0.1.0",
+  "downloadURL": "https://github.com/aurora-silicon/aurora-installer/releases/tag/v0.1.0-alpha.23"
+ },
+ "models": [
+  {
+   "deviceIdentifier": "apple,j274",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
   },
-  "models": [
-    {
-      "deviceIdentifier": "apple,j274",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j293",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j313",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j456",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j457",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j314s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j314c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j316s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j316c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j375c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j375d",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j413",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j415",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j473",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j493",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j414s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j414c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j416s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j416c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j474s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j475c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j475d",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j180d",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j433",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j434",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j504",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j613",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j615",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j514s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j514c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j514m",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j516s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j516c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j516m",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j575d",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j604",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j623",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j624",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j713",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j715",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j773g",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j614s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j614c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j616s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j616c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j773s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j575c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j813",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j704",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j815",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j873g",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j804",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j833ct",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j700",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,k114c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,k114s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,k116c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,k116s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j714c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j714s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j716c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j716s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j775c",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j775d",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    },
-    {
-      "deviceIdentifier": "apple,j873s",
-      "status": "enabled",
-      "asahiInstallerTag": "v0.9.2",
-      "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
-      "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
-      "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
-      "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
-      "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
-      "evidenceRevision": "aurora-bazzite-20261122",
-      "metadataArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
-        "fileName": "installer-data-fedora-minimal.json",
-        "sizeBytes": 14963
-      },
-      "payloadArtifact": {
-        "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
-        "fileName": "fedora-minimal-20261122.zip",
-        "sizeBytes": 2466039119
-      }
-    }
-  ]
+  {
+   "deviceIdentifier": "apple,j293",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j313",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j456",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j457",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j314s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j314c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j316s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j316c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j375c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j375d",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j413",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j415",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j473",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j493",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j414s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j414c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j416s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j416c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j474s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j475c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j475d",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j180d",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j433",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j434",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j504",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j613",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j615",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j514s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j514c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j514m",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j516s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j516c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j516m",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j575d",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j604",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j623",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j624",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j713",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j715",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j773g",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j614s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j614c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j616s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j616c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j773s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j575c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j813",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j704",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j815",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j873g",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j804",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j833ct",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j700",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,k114c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,k114s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,k116c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,k116s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j714c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j714s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j716c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j716s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j775c",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j775d",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  },
+  {
+   "deviceIdentifier": "apple,j873s",
+   "status": "enabled",
+   "asahiInstallerTag": "v0.9.2",
+   "asahiInstallerRevision": "dffbb38ef0c00c0431c609ecd8a00f42deb5b24c",
+   "asahiInstallerDataRevision": "42648e71423eba308d2e3e6228253eff679b068b",
+   "downstreamRevision": "9779fa452351c5a66ae583918b8e8120c044051f",
+   "metadataDigest": "sha256:cb73315aa26ce1763a793dd9eaf0dfe6d0ef7a43eee974969c730b048682a28e",
+   "payloadDigest": "sha256:2e7cf575b515648ea6f108b740af1db08dfc4e8d631fe36de0ba87cc5373e799",
+   "evidenceRevision": "aurora-bazzite-20261122",
+   "metadataArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/installer-data-fedora-minimal.json",
+    "fileName": "installer-data-fedora-minimal.json",
+    "sizeBytes": 14963
+   },
+   "payloadArtifact": {
+    "sourceURL": "https://github.com/dracinn/aurora-bazzite/releases/download/payload-fedora-minimal-20261122/fedora-minimal-20261122.zip",
+    "fileName": "fedora-minimal-20261122.zip",
+    "sizeBytes": 2466039119
+   },
+   "installationProfile": "fedora-minimal"
+  }
+ ]
 }
