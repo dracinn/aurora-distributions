@@ -6,7 +6,7 @@
  "installer": {
   "minimumVersion": "0.1.0",
   "latestVersion": "0.1.0",
-  "downloadURL": "https://github.com/aurora-silicon/aurora-installer/releases/tag/v0.1.0-alpha.23"
+  "downloadURL": "https://github.com/dracinn/aurora-installer/releases/tag/v0.1.0-alpha.23"
  },
  "models": [
   {
